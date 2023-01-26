@@ -39,6 +39,9 @@ class Config(object):
 
     # Telegram maximum file upload size
     TG_MAX_FILE_SIZE = 2097152000
+    
+    # Get The Port For Web
+    PORT = os.environ.get("PORT", "9675")
 
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
