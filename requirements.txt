@@ -1,6 +1,7 @@
 # --- Libraries Used:
 # --- For-Bot-Working --------- #
 pyrogram==1.4.8
+aiohttp
 TgCrypto
 # --- For-YTDL. --------------- #
 youtube-search-python
